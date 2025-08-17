@@ -4,12 +4,6 @@ mysql/
 # php/
 
 # Symfony関連
-/app/.env.local
-/app/.env.dev
-/app/var/
-/app/vendor/
-!/app/var/.gitignore
-!/app/vendor/.gitignore
 
 # IDE関連
 .vscode/
