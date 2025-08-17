@@ -1,0 +1,29 @@
+# docker関連
+mysql/
+# nginx/
+# php/
+
+# Symfony関連
+/app/.env.local
+/app/.env.dev
+/app/var/
+/app/vendor/
+!/app/var/.gitignore
+!/app/vendor/.gitignore
+
+# IDE関連
+.vscode/
+.idea/
+
+# OS・エディタ一時ファイル
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ログ・キャッシュ
+*.log
+*.cache
+
+# その他
+node_modules/
