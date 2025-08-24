@@ -21,4 +21,9 @@ class QuoteController extends AbstractController {
             ]
         );
     }
+    #[Route('/test', name: 'test')]
+    public function test(): Response
+    {
+        return new Response('Test page');
+    }
 }
